@@ -5,8 +5,7 @@ import { GitRepositoryListComponent } from './git-repository-list/git-repository
 import { ErrorMessageBoxComponent } from './error-message-box/error-message-box.component';
 
 const routes: Routes = [
-
-  {path:'', component: AppComponent},
+  
   {path:'repository', component: GitRepositoryListComponent},
   {path: 'user-not-found', component : ErrorMessageBoxComponent},
 
